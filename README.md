@@ -17,11 +17,10 @@ aleatoria, ambos con **200 evaluaciones** (200 redes entrenadas), para encontrar
 
 ## Instalación
 ```bash
-python -m venv .venv && source .venv/bin/activate      # Windows: .venv\Scripts\activate
+python -m venv .venv && source .venv/bin/activate  
 pip install -r requirements.txt
 ```
 Probado con Python 3.12 (versiones exactas en `requirements.txt` y `resultados/entorno.json`).
-**No se probó en Google Colab**; allí: subir la carpeta, ejecutar `!pip install -r requirements.txt` (si falla una versión exacta, quitar el `==`) y abrir el cuaderno.
 
 ## Ejecución
 ```bash
