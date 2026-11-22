@@ -1,0 +1,14 @@
+# Versiones con las que se ejecutó y verificó este proyecto (Python 3.12.3, Linux).
+# En Colab u otro entorno pueden instalarse versiones distintas: el código usa solo funciones estables,
+# pero los decimales exactos podrían variar si cambian las bibliotecas numéricas.
+numpy==2.5.4
+pandas==3.0.6
+scipy==1.18.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+# Para abrir y ejecutar el cuaderno y las pruebas
+jupyter
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0
+pytest==9.2.0

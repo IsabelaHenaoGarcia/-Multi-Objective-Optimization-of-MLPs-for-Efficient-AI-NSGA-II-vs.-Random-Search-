@@ -1,0 +1,23 @@
+{
+  "tag": "sens_pob50",
+  "metodo": "NSGA-II",
+  "semilla": 7,
+  "tiempo_s": 27.964346586000033,
+  "info": {
+    "generaciones": 3,
+    "hijos_fallback_aleatorio": 0
+  },
+  "evaluaciones": 200,
+  "config_busqueda": {
+    "presupuesto": 200,
+    "tam_poblacion": 50,
+    "prob_cruce": 0.9,
+    "sigma_mutacion": 0.6,
+    "max_intentos_hijo": 100
+  },
+  "config_entrenamiento": {
+    "max_iter": 100,
+    "tasa_aprendizaje": 0.01,
+    "solver": "adam"
+  }
+}

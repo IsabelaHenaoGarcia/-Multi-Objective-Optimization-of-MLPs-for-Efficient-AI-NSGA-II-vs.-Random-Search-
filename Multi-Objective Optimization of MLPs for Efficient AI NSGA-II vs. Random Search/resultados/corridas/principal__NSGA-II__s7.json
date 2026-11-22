@@ -1,0 +1,23 @@
+{
+  "tag": "principal",
+  "metodo": "NSGA-II",
+  "semilla": 7,
+  "tiempo_s": 36.26140117399996,
+  "info": {
+    "generaciones": 9,
+    "hijos_fallback_aleatorio": 0
+  },
+  "evaluaciones": 200,
+  "config_busqueda": {
+    "presupuesto": 200,
+    "tam_poblacion": 20,
+    "prob_cruce": 0.9,
+    "sigma_mutacion": 0.6,
+    "max_intentos_hijo": 100
+  },
+  "config_entrenamiento": {
+    "max_iter": 100,
+    "tasa_aprendizaje": 0.01,
+    "solver": "adam"
+  }
+}
